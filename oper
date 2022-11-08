@@ -1,0 +1,52 @@
+//operator di js
+- penjumlahan -> +
+- pengurangan -> -
+- perkalian -> *
+- pemangkatan -> **
+- pembagian -> /
+- sisa bagi -> %
+- pengisian nilai -> =
+- pengisian dan penambahan -> +=
+//misal var a = 11;
+a += 1;
+maknanya sama dengan a= a+1
+- pengisian dan pengurangan -> -=
+- pengisian dan perkalian -> *=
+- pengisian dan pemangkatan -> **=
+- pengisian dan pembagian -> /=
+- pengisian dan sisa bagi -> %=
+//untuk operator yang dijumlahkan dan dikurangan dengan satu, 
+//bisa disingkat dengan '++' dan '--'
+var a = 2;
+a++;
+//a akan jadi 3
+- lebih besar >
+- lebih kecil <
+- sama dengan == atau ===
+- tidak sama dengan != atau !==
+- lebih besar sama dengan >=
+- lebih kecil sama dengan <=
+//perbedaan simbol '==' dan '===' adalah, jika'==' hanya membandingkan nilai saja
+//sedangkan '===' akan membandingkan dengan tipe data juga
+//misal 
+var a = "4" == 4; //->true
+var b = "4" === 4; //->false
+
+//operator logika , biasa digunakan untuk operasi terhadap dua nilai (boolean)
+- logika AND &&
+- logika OR ||
+- negasi/kebalikan !
+
+//operator bitwise 
+AND &
+OR |
+XOR ^
+negasi/kebalikan ~
+left shift «
+right shift »
+left shift (unsigned) «<
+right shift (unsigned) »>
+//operator bitwise berlaku untuk tipe data int, long, short, char, dan byte
+//intinya cara kerjanya sama ky operator logika, cuma bedanya bitwise digunakan untuk biner
+
+//ternary
