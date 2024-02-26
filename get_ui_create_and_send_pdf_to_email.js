@@ -1,6 +1,6 @@
 // Script ini digunakan untuk mengirim sheet dalam suatu worksheet ke email dengan format pdf
-// Selain itu, disertakan juga UI untuk menjalankan scriptnya ketika sheet dibuka
-// UI ini apabila di-klik akan dilanjutkan ke fungsi gajI
+// Selain itu, disertakan juga fitur untuk menjalankan scriptnya ketika sheet dibuka
+// fitur ini apabila di-klik akan dilanjutkan ke fungsi gajI
 function onOpen() {
   var submenu = [{name:"Create PDF and Send", functionName:"gajI"}];
   SpreadsheetApp.getActiveSpreadsheet().addMenu('Create PDF', submenu);  
